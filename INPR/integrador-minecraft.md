@@ -51,7 +51,7 @@ Implementar las siguientes funciones y procedimientos:
 - `personajeConNuevaPiezaDeArmaduraPuesta(unPersonaje, unItem)` - dado un personaje y un item de variante de algún tipo de armadura (casco, chaleco, pantalón o botas) denota el personaje con el item de armadura puesta en el lugar que corresponda. Precondición: el slot de armadura del variante que recibe está libre.
 - `personajeConItemMovidoABarraDeAccion(unPersonaje, unItem)` - denota el personaje con el item (que debe encontrarse en el inventario interno) en su barra de accion, simulando un movimiento del item. Si el personaje tiene más de un item del indicado, mover cualquiera de ellos. Precondicion: El personaje tiene el item indicado en su inventario interno y tiene espacio disponible en su barra de accion.
 - `Minar(unPersonaje)` - Si hay un mineral en la celda actual, y unPersonaje tiene un PicoDeHierro en su barra de acción, quita el mineral.
-- `personajeConNuevoCrafteo(unPersonaje, unItem)` - Denota al personaje con un nuevo item creado en su inventario, segun el item que le pasemos para craftear. Para ello, el personaje debe contar con una determinada cantidad de minerales de hierro segun la siguiente tabla:
+- `personajeConNuevoCrafteo(unPersonaje, unItem)` - Denota al personaje con un nuevo item creado en su inventario interno, segun el item que le pasemos para craftear. Para ello, el personaje debe contar con una determinada cantidad de minerales de hierro segun la siguiente tabla:
 
     3 minerales → Pico de hierro
 
@@ -63,6 +63,6 @@ Implementar las siguientes funciones y procedimientos:
 
     8 minerales → Chaleco de hierro
 
-- Si no es posible craftear el item, hacer `boom` . El personaje debe usar primero minerales en su inventario interno y luego en su barra de acción.
+- Si no es posible craftear el item, hacer `boom` . El personaje debe usar primero minerales en su inventario interno y luego en su barra de acción. Precondición: El personaje tiene espacio en su inventario interno para el item crafteado.
 - `personajeTrasExpedicionDeMineria(unPersonaje, unPicoDeHierro)` - Dado un personale y un item de variante PicoDeHierro, denotar el personaje tras un recorrido por un tablero lleno de minerales y zombis, en el cual el personaje mine y ataque a los mismos.
 - `personajeTrasExpedicionDeMineriaConMiedo(unPersonaje, unPicoDeHierro)` - Dado un personale y un item de variante PicoDeHierro, denotar el personaje tras un recorrido por un tablero lleno de minerales y zombis, en el cual el personaje mine todo lo posible y se detenga cuando se encuentre con un zombi.
