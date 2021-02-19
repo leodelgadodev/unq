@@ -1,6 +1,6 @@
-# Minecraft
+# Gobstonecraft
 
-Minecraft es un juego de construcción, exploración, creación, combate, y sobre todo, minería. En este examen vamos a intentar replicar algunas de estas funcionalidades. Para ello, contamos con los siguientes registros:
+Gobstonecraft es un juego de construcción, exploración, creación, combate, y sobre todo, minería. En este examen vamos a intentar replicar algunas de estas funcionalidades. Para ello, contamos con los siguientes registros:
 
 ```js
 
