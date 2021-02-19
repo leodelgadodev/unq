@@ -64,5 +64,5 @@ Implementar las siguientes funciones y procedimientos:
     8 minerales → Chaleco de hierro
 
 - Si no es posible craftear el item, hacer `boom` . El personaje debe usar primero minerales en su inventario interno y luego en su barra de acción. Precondición: El personaje tiene espacio en su inventario interno para el item crafteado.
-- `personajeTrasExpedicionDeMineria(unPersonaje, unPicoDeHierro)` - Dado un personale y un item de variante PicoDeHierro, denotar el personaje tras un recorrido por un tablero lleno de minerales y zombis, en el cual el personaje mine y ataque a los mismos.
+- `personajeTrasExpedicionDeMineria(unPersonaje, unPicoDeHierro)` - Dado un personale y un item de variante PicoDeHierro, denotar el personaje tras un recorrido por un tablero lleno de minerales y zombis, en el cual el personaje mine y ataque a los mismos a medida que los vaya encontrando.
 - `personajeTrasExpedicionDeMineriaConMiedo(unPersonaje, unPicoDeHierro)` - Dado un personale y un item de variante PicoDeHierro, denotar el personaje tras un recorrido por un tablero lleno de minerales y zombis, en el cual el personaje mine todo lo posible y se detenga cuando se encuentre con un zombi.
