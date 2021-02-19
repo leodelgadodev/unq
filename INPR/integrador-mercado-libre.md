@@ -10,7 +10,7 @@ type GobstorcadoLibre is record {
 
 type Usuario is record {
 // INV. REP: El email es unico por usuario
-// INV. REP: El
+// INV. REP: El saldo es un numero mayor a 0
 	field email // string
 	field nivel // number
 	field saldo // number
