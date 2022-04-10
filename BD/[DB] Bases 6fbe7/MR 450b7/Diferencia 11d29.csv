@@ -1,0 +1,6 @@
+﻿MER,MR
+Modelo conceptual del dominio que nos permite conceptualizar ideas,Modelo lógico del dominio que nos permite hacer operaciones
+Entidades,Relaciones
+Modelan conexiones entre entidades,Mapean entidades y relaciones del MER
+"Elementos representados con entidades, relaciones y atributos","Elementos representacion con relaciones, campos y registros (tuplas)"
+Identificación con atributos clave,Identificación con claves primarias (y aparecen las claves foraneas)
