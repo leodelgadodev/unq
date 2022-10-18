@@ -36,7 +36,7 @@ type Item is variant {
 }
 ```
 
-Además, contamos con las siguientes funciones: 
+Además, contamos con las siguientes funciones y procedimientos: 
 
 - `hayZombi()` indica si hay un zombi en la celda actual.
 - `hayMineral()` indica si hay un mineral de hierro en la celda actual.
